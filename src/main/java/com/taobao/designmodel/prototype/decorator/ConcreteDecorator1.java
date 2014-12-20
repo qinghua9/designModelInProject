@@ -22,7 +22,7 @@ public class ConcreteDecorator1 extends Decorator {
     }
 
     private void method1() {
-        System.out.println("–ﬁ Œ¿‡1");
+        System.out.println("method1–ﬁ Œ");
     }
 
     /** 
