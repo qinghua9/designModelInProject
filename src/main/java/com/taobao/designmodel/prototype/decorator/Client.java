@@ -6,7 +6,8 @@ package com.taobao.designmodel.prototype.decorator;
 
 /**
  * <pre>
- * 
+ * 有点抽像的是Decorator类以及两个字类
+ * 适用于给一个类扩展属性，但不给这个类增加属性的场合
  * </pre>
  *
  * @author qinghuajiang
