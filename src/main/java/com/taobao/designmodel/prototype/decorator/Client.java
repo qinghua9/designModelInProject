@@ -13,5 +13,13 @@ package com.taobao.designmodel.prototype.decorator;
  * @version $Id: Client.java, v 0.1 2014-12-20 下午7:54:28 qinghuajiang Exp $
  */
 public class Client {
-
+    public static void main(String[] args) {
+        Component com = new ConcreteComponent();
+        //第一次装饰
+        com = new ConcreteDecorator1(com);
+        //第二次装饰
+        com = new ConcreteDecorator2(com);
+        //装饰后运行
+        com.operate();
+    }
 }
