@@ -6,7 +6,7 @@ package com.taobao.designmodel.prototype.responsibility;
 
 /**
  * <pre>
- * 
+ * ¥¶¿Ì¿‡1
  * </pre>
  *
  * @author qinghuajiang
